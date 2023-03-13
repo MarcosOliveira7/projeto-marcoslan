@@ -1,0 +1,326 @@
+@media (min-width:0px) {
+
+
+
+
+    * {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+
+    }
+
+
+    body {
+
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: #3A486E;
+
+    }
+
+
+    header {
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #161F33;
+        color: white;
+        margin-bottom: 15px;
+        font-weight: 100;
+
+    }
+
+    header h3 {
+
+        color: white;
+        font-weight: 100;
+    }
+
+
+    main {
+
+        height: 100%;
+
+
+    }
+
+
+    form fieldset {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    fieldset {
+
+        padding: 10px;
+        margin: 10px;
+        border: none;
+    }
+
+    form label {
+
+        padding: 10px;
+        
+
+    }
+
+
+    form textarea {
+
+        width: 80%;
+        height: 70px;
+
+    }
+
+
+    
+    form input {
+
+        width: 80%;
+        height: 80%;
+
+    }
+
+
+    img {
+
+        width: 50px;
+        height: 50px;
+        
+    }
+
+    #divimagem{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .redessociais {
+
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .redessociais h3 {
+        font-weight: 100;
+    }
+
+    .redessociais img {
+        padding: 10px;
+    }
+
+    form fieldset input {
+
+        text-align: center;
+
+    }
+
+    textarea {
+        text-align: center;
+    }
+
+
+    #rodape {
+
+        width: 100%;
+        height: 10%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background-color: black;
+        color: white;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    #rodape h6 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+
+    }
+
+    #rodape img {
+
+        padding: 8px;
+
+    }
+
+}
+
+
+
+@media (min-width:481px) {
+
+
+    * {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+
+    }
+
+
+    body {
+
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: #3A486E;
+
+    }
+
+
+    header {
+        
+        background-color: #161F33;
+        color: white;
+        margin-bottom: 15px;
+        font-weight: 100;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    header h3 {
+
+        color: white;
+        padding: 10px;
+        font-weight: 100;
+
+    }
+
+
+    #divimagem {
+        display: flex;
+        margin-left: -80px;
+        flex-direction: row;
+
+
+    }
+    
+  
+
+    form fieldset {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    fieldset {
+
+        padding: 10px;
+        margin: 10px;
+        
+        border: none;
+    }
+
+    form label {
+
+        padding: 10px;
+
+        
+    }
+
+
+    form textarea {
+
+        width: 40%;
+        height: 70px;
+
+    }
+
+    img {
+
+        width: 50px;
+        height: 50px;
+
+    }
+
+
+    .redessociais {
+
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .redessociais h3 {
+        font-weight: 100;
+    }
+
+    .redessociais img {
+        padding: 10px;
+    }
+
+    form fieldset input {
+
+        text-align: center;
+
+    }
+
+    textarea {
+        text-align: center;
+    }
+
+
+    #rodape {
+
+        width: 100%;
+        height: 10%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background-color: black;
+        color: white;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    #rodape h6 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+
+    }
+
+    #rodape img {
+
+        padding: 8px;
+
+    } 
+
+    form input {
+
+        width: 40%;
+        height: 80%;
+
+    }
+
+
+
+
+
+
+}

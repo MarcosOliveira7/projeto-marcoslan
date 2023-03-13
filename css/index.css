@@ -1,0 +1,563 @@
+@media (min-width:0px) {
+
+
+    * {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    body {
+
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: #3A486E;
+
+    }
+
+    header {
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #161F33;
+        color: white;
+        margin-bottom: 15px;
+    }
+
+
+
+    header h1,
+    header h3,
+    p {
+
+        font-weight: 100;
+        color: white;
+    }
+
+    header a {
+
+        text-decoration: none;
+
+    }
+
+    #container {
+
+        display: flex;
+        background-color: #3A486E;
+        margin-bottom: 25px;
+        margin-left: 5px;
+    }
+
+
+    main #container h3 {
+        font-weight: 100;
+        color: white;
+        font-size: 12px;
+        text-align: justify;
+
+    }
+
+    p {
+        font-weight: 100;
+        color: white;
+        font-size: 10px;
+        margin-top: 20px;
+
+
+    }
+
+    img {
+
+        width: 50px;
+        height: 50px;
+
+    }
+
+    div img {
+
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+
+
+    }
+
+    #localization {
+
+        background-color: #6676B2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #localization img {
+
+        width: 300px;
+    }
+
+    #localization h3 {
+
+        font-weight: 100;
+        color: white;
+        font-size: 13px;
+        margin-bottom: 10px;
+        margin-left: 5%;
+
+    }
+
+    #localization h1 {
+
+        color: white;
+        font-weight: 100;
+        margin-bottom: 10px;
+
+    }
+
+    #buff {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #buff h1 {
+
+        color: white;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    #buff div {
+
+        display: flex;
+        color: white;
+
+    }
+
+
+
+    #buff div ul {
+
+        font-size: 13px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+    }
+
+    #rodape {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+
+
+    }
+
+    #rodape h6 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+
+    }
+
+    #rodape img {
+
+        padding: 8px;
+
+    }
+}
+
+@media (min-width:481px) {
+
+
+    * {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    body {
+
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: #3A486E;
+
+    }
+
+    header {
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #161F33;
+        color: white;
+        margin-bottom: 15px;
+    }
+
+
+
+    header h1,
+    header h3,
+    p {
+
+        font-weight: 100;
+        color: white;
+    }
+
+    header a {
+
+        text-decoration: none;
+
+    }
+
+    #container {
+
+        display: flex;
+        background-color: #3A486E;
+        margin-bottom: 25px;
+        margin-left: 5px;
+    }
+
+
+    main #container h3 {
+        font-weight: 100;
+        color: white;
+        font-size: 25px;
+        text-align: justify;
+
+    }
+
+    p {
+        font-weight: 100;
+        color: white;
+        font-size: 20px;
+        margin-top: 20px;
+
+
+    }
+
+    img {
+
+        width: 50px;
+        height: 50px;
+
+    }
+
+    div img {
+
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+
+
+    }
+
+    #localization {
+
+        background-color: #6676B2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #localization img {
+
+        width: 50%;
+        height: 50%;
+    }
+
+    #localization h3 {
+
+        font-weight: 100;
+        color: white;
+        font-size: 13px;
+        margin-bottom: 10px;
+        margin-left: 5%;
+
+    }
+
+    #localization h1 {
+
+        color: white;
+        font-weight: 100;
+        margin-bottom: 10px;
+
+    }
+
+    #buff {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #buff h1 {
+
+        color: white;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    #buff div {
+
+        display: flex;
+        color: white;
+
+    }
+
+
+
+    #buff div ul {
+
+        font-size: 13px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+    }
+
+    #rodape {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+
+
+    }
+
+    #rodape h6 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+
+    }
+
+    #rodape img {
+
+        padding: 8px;
+
+    }
+
+
+}
+
+@media (min-width:1024px) {
+
+
+    * {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    body {
+
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: #3A486E;
+
+    }
+
+    header {
+
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #161F33;
+        color: white;
+        margin-bottom: 15px;
+        justify-content: space-around;
+        align-items: center;
+
+
+    }
+
+    header div {
+
+        display: flex;
+        align-items: center;
+        
+    }
+
+
+    
+    #paginas {
+        
+        flex-direction: column;
+        
+    }
+
+
+    #paginas a{
+
+        font-size: 25px;
+        padding: 5px;
+
+    }
+
+
+    header h1,
+    header h3,
+    p {
+
+        font-weight: 100;
+        color: white;
+    }
+
+    header a {
+
+        text-decoration: none;
+
+    }
+
+    #container {
+
+        display: flex;
+        background-color: #3A486E;
+        margin-bottom: 25px;
+        margin-left: 5px;
+    }
+
+
+    main #container h3 {
+        font-weight: 100;
+        color: white;
+        font-size: 25px;
+        text-align: justify;
+
+    }
+
+    p {
+        font-weight: 100;
+        color: white;
+        font-size: 20px;
+        margin-top: 20px;
+
+
+    }
+
+    img {
+
+        width: 50px;
+        height: 50px;
+
+    }
+
+    div img {
+
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+
+
+    }
+
+    #localization {
+
+        background-color: #6676B2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #localization img {
+
+        width: 50%;
+        height: 50%;
+    }
+
+    #localization h3 {
+
+        font-weight: 100;
+        color: white;
+        font-size: 17px;
+        margin-bottom: 10px;
+        margin-left: 5%;
+
+    }
+
+    #localization h1 {
+
+        color: white;
+        font-weight: 100;
+        margin-bottom: 10px;
+
+    }
+
+    #buff {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #buff h1 {
+
+        color: white;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        font-weight: 100;
+    }
+
+    #buff div {
+
+        display: flex;
+        color: white;
+
+    }
+
+
+
+    #buff div ul {
+
+        font-size: 25px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+
+        
+    }
+
+    #rodape {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+    
+
+    }
+
+    #rodape h6 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-size: 100%;
+
+    }
+
+    #rodape img {
+
+        width: 5%;
+        padding: 8px;
+        height: 5%;
+    }
+
+
+}
+
+

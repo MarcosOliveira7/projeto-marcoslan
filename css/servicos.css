@@ -1,0 +1,395 @@
+@media (min-width:0px) {
+
+    * {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+
+    body {
+
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: #3A486E;
+
+    }
+
+    header {
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #161F33;
+        color: white;
+        margin-bottom: 15px;
+
+
+
+    }
+
+
+    header h1,
+    h3 {
+        color: white;
+        text-decoration: none;
+        font-weight: 100;
+
+    }
+
+    header h1,
+    header h3,
+    p {
+
+        font-weight: 100;
+        color: white;
+    }
+
+    header a {
+
+        text-decoration: none;
+
+    }
+
+    main {
+
+        height: 100%;
+
+
+    }
+
+
+    .rapidos {
+        margin-bottom: 10px;
+        background-color: #D9D9D9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+
+
+    .rapidos h3 {
+        color: black;
+        margin-bottom: 10px;
+
+    }
+
+    .rapidos p,
+    .intermediario p,
+    .alternativo p {
+        color: black;
+    }
+
+    .intermediario {
+
+        margin-bottom: 10px;
+        background-color: #D9D9D9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+
+    }
+
+    .intermediario h3 {
+        color: black;
+        margin-bottom: 10px;
+
+    }
+
+
+    .alternativo {
+
+        margin-bottom: 10px;
+        background-color: #D9D9D9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+
+    }
+
+
+    .alternativo h3 {
+        color: black;
+        margin-bottom: 10px;
+
+    }
+
+
+    .horario {
+
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+    img {
+
+        width: 50px;
+        height: 50px;
+
+    }
+
+    #rodape {
+
+        width: 100%;
+        height: 10%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: black;
+        color: white;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    #rodape h6 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+
+    }
+
+    #rodape img {
+
+        padding: 8px;
+
+    }
+
+}
+
+@media (min-width:1024px) {
+
+
+    * {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+
+    body {
+
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: #3A486E;
+
+    }
+
+    header {
+
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #161F33;
+        color: white;
+        margin-bottom: 15px;
+        justify-content: space-between;
+        
+
+    }
+
+    #imagemtitulo {
+
+        display: flex;
+        margin-left: 30px;  
+        align-items: center;
+    }
+
+
+
+    #cabecalho {
+
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        margin-right: 30px;
+    
+    }
+
+
+    #cabecalho a {
+
+        padding: 10px;
+
+    }
+
+
+    header h1,
+    h3 {
+        color: white;
+        text-decoration: none;
+        font-weight: 100;
+
+    }
+
+    header h1,
+    header h3,
+    p {
+
+        font-weight: 100;
+        color: white;
+    }
+
+    header a {
+
+        text-decoration: none;
+
+    }
+
+    main {
+
+        height: 100%;
+
+
+    }
+
+    main section {
+
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+
+
+    main section div {
+
+        height: 180px;
+        width: 360px;
+
+    }
+
+
+    .rapidos {
+        margin-bottom: 10px;
+        background-color: #D9D9D9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+
+
+    .rapidos h3 {
+        color: black;
+        margin-bottom: 10px;
+
+    }
+
+    .rapidos p,
+    .intermediario p,
+    .alternativo p {
+        color: black;
+        margin: 10px;
+        font-size: 20px;
+        text-align: center;
+
+
+    }
+
+    .intermediario {
+
+        margin-bottom: 10px;
+        background-color: #D9D9D9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+
+
+    }
+
+    .intermediario h3 {
+        color: black;
+        margin-bottom: 10px;
+
+    }
+
+
+    .alternativo {
+
+        margin-bottom: 10px;
+        background-color: #D9D9D9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+
+    }
+
+
+    .alternativo h3 {
+        color: black;
+        margin-bottom: 10px;
+
+    }
+
+
+    .horario {
+
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+
+
+    img {
+
+        width: 50px;
+        height: 50px;
+
+    }
+
+    #rodape {
+
+        width: 100%;
+        height: 10%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: black;
+        color: white;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    #rodape h6 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-size: 20px;
+
+    }
+
+    #rodape img {
+
+        padding: 8px;
+
+    }
+
+}
