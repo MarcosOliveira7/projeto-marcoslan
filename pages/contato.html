@@ -36,21 +36,21 @@
 
     <main>
 
-        <form action="">
+        <form action="" onsubmit="event.preventDefault()">
 
             <fieldset>
-                <input type="text" name="input-name" id="input-name" placeholder="nome">
+                <input type="text" name="input-name" id="input-name" placeholder="nome" required minlength="2">
             </fieldset>
 
             <fieldset>
 
-                <input type="email" name="input-email" id="input-email" placeholder="email">
+                <input type="email" name="input-email" id="input-email" placeholder="email" required>
 
             </fieldset>
 
             <fieldset>
 
-                <input type="tel" name="input-tel" id="input-tel" placeholder="telefone">
+                <input type="tel" name="input-tel" id="input-tel" placeholder="telefone" required pattern="^\(\d{2}\) \d{5}-\d{4}$" maxlength="15">
 
             </fieldset>
 
@@ -63,7 +63,12 @@
             </fieldset>
 
 
-            <button> ENVIAR </button>
+           
+
+            <center>
+                <input id="botaoEnviar" type="submit" value="ENVIAR" class="button" onclick="enviarFormulario()">
+            </center>
+
 
 
         </form>
@@ -116,6 +121,7 @@
 
 
     </footer>
+    <script src="../scripts/scripts.js"></script>
 
 
 </body>

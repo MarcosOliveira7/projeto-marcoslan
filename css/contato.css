@@ -63,13 +63,13 @@
         margin: 10px;
         border: none;
         width: 100%;
-        
+
     }
 
     form label {
 
         padding: 10px;
-        
+
 
     }
 
@@ -82,7 +82,7 @@
     }
 
 
-    
+
     form input {
 
         width: 80%;
@@ -109,7 +109,7 @@
 
 
     }
-    
+
 
     .espacamento {
 
@@ -122,10 +122,10 @@
 
         width: 50px;
         height: 50px;
-        
+
     }
 
-    #divimagem{
+    #divimagem {
 
         display: flex;
         flex-direction: column;
@@ -188,6 +188,31 @@
         padding: 8px;
 
     }
+
+
+    #botaoEnviar {
+
+
+        margin-top: 40px;
+        width: 150px;
+        height: 40px;
+        margin-bottom: 40px;
+
+    }
+
+    #botaoEnviar:hover {
+
+        cursor: pointer;
+
+        border: 2px solid black
+    }
+
+
+    .invalid {
+
+        border: 2px solid red;
+    }
+
 
 }
 
@@ -215,7 +240,7 @@
 
 
     header {
-        
+
         background-color: #161F33;
         color: white;
         margin-bottom: 15px;
@@ -243,8 +268,8 @@
 
 
     }
-    
-  
+
+
 
     form fieldset {
         height: 80px;
@@ -259,7 +284,7 @@
 
         padding: 10px;
         margin: 10px;
-        
+
         border: none;
     }
 
@@ -267,7 +292,7 @@
 
         padding: 10px;
 
-        
+
     }
 
 
@@ -280,7 +305,7 @@
 
     }
 
-    
+
     form {
 
         display: flex;
@@ -326,7 +351,7 @@
 
     textarea {
         text-align: center;
-     
+
     }
 
 
@@ -354,7 +379,7 @@
 
         padding: 8px;
 
-    } 
+    }
 
     form input {
 
@@ -364,15 +389,29 @@
     }
 
 
-    form button {
+    #botaoEnviar {
 
+
+        margin-top: 40px;
         width: 150px;
-        height: 30px;
-        margin-top: 50px;
-
+        height: 40px;
+        margin-bottom: 40px;
 
     }
 
+    #botaoEnviar:hover {
+
+        cursor: pointer;
+
+        border: 2px solid black
+    }
+
+
+
+    .invalid {
+
+        border: 2px solid red;
+    }
 
 
 }
